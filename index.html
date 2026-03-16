@@ -68,7 +68,12 @@ brains=[]
 score=0
 time=60
 player.size=30
-player.speed=5
+if(mode==="easy"){
+  player.speed=7
+}
+if(mode==="hard"){
+  player.speed=10
+}
 
 spawnFoods()
 spawnFruits()
